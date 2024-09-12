@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+body {
+  background-color: #0F0F0F;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  width: 1360px;
+  margin: 0 auto;
+}
+
+header .container {
+  width: 1360px;
+  margin: 0 auto;
+}
+header .container .wrapper {
+  display: flex;
+  align-items: center;
+  width: 1360px;
+  background-color: #1A1A1A;
+  border-radius: 14px;
+}
+header .container .wrapper .wrapper-img {
+  margin-left: 40px;
+}
+header .container .wrapper .wrapper-element {
+  margin-left: 390px;
+  display: flex;
+  align-items: center;
+}
+header .container .wrapper ul {
+  display: flex;
+}
+header .container .wrapper ul li {
+  border-radius: 10px;
+  background-color: #0F0F0F;
+  padding: 14px 20px;
+  cursor: pointer;
+  margin-left: 14px;
+  color: #81807E;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  list-style-type: none;
+  transition: 0.3s ease all;
+}
+header .container .wrapper ul li:hover {
+  color: #E7BEB1;
+}
+header .container .wrapper button {
+  color: #0F0F0F;
+  margin-left: 14px;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  padding: 14px 20px;
+  background-color: #CE7D63;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  transition: 0.5s ease all;
+}
+header .container .wrapper button:hover {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+nav {
+  margin-top: 42px;
+}
+nav .container {
+  width: 1360px;
+  margin: 0 auto;
+}
+nav .container .inner {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+nav .container .inner .inner-item {
+  border-radius: 16px;
+  background-color: #1A1A1A;
+  width: 892px;
+}
+nav .container .inner .inner-item h1 {
+  margin-top: 80px;
+  margin-left: 60px;
+  font-family: "Roboto Flex", sans-serif;
+  text-transform: uppercase;
+  color: #F9EFEC;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 87px;
+  width: 603px;
+}
+nav .container .inner .inner-item p {
+  margin-top: -30px;
+  margin-left: 60px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #676665;
+  width: 692px;
+}
+nav .container .inner .inner-item ul {
+  margin-top: 78px;
+  border-radius: 10px;
+  padding: 16px 20px;
+  background-color: #0F0F0F;
+  display: flex;
+}
+nav .container .inner .inner-item ul li {
+  margin-left: 30px;
+  text-transform: uppercase;
+  color: #676665;
+}
+nav .container .inner .inner-item ul li::marker {
+  color: #CE7D63;
+}
+nav .container .inner .inner-item2 {
+  border-radius: 12px;
+  background-color: #1F1F1F;
+  width: 452px;
+}
+nav .container .inner .inner-item2 img {
+  border-radius: 12px 12px 0px 0px;
+}
+nav .container .inner .inner-item2 h3 {
+  margin-left: 24px;
+  color: #F9EFEC;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+nav .container .inner .inner-item2 p {
+  padding-bottom: 10px;
+  margin-top: -20px;
+  margin-left: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B3B3B2;
+}
+
+footer .container .website-about {
+  margin-top: 16px;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 16px;
+  border: 2px solid #1F1F1F;
+}
+footer .container .website-about .website-about-item {
+  border-radius: 12px;
+  text-align: center;
+  width: 215px;
+  height: 101px;
+  background-color: #1A1A1A;
+}
+footer .container .website-about .website-about-item p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #B3B3B2;
+}
+footer .container .website-about .website-about-item h4 {
+  margin-top: -20px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #DA9E8B;
+}
+footer .container .website-about .website-about-item1 {
+  border-radius: 12px;
+  text-align: center;
+  width: 215px;
+  height: 101px;
+  background-color: #1A1A1A;
+}
+footer .container .website-about .website-about-item1 p {
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #B3B3B2;
+}
+footer .container .website-about .website-about-item1 .box {
+  margin-top: 5px;
+  margin-left: 37px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+footer .container .website-about .website-about-item1 .box img {
+  margin-top: 20px;
+  margin-right: 12px;
+}
+
+main .container .main-content {
+  margin-top: 80px;
+  border-radius: 20px;
+  border: 2px solid #1F1F1F;
+}
+main .container .main-content .main-element {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 16px;
+  width: 1320px;
+  padding: 10px 10px;
+  background-color: #1A1A1A;
+}
+main .container .main-content .main-element h2 {
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 44.53px;
+  color: #F9EFEC;
+  text-transform: uppercase;
+  font-family: "Roboto Flex", sans-serif;
+}
+main .container .main-content .main-element2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .container .main-content .main-element2 .element {
+  margin-top: 10px;
+  background-color: #1A1A1A;
+  border-radius: 12px;
+  width: 327px;
+  height: 290px;
+}
+main .container .main-content .main-element2 .element h4 {
+  margin-left: 30px;
+  width: 267.5px;
+  font-family: "Roboto Flex", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #F9EFEC;
+}
+main .container .main-content .main-element2 .element p {
+  margin-top: -15px;
+  width: 267.5px;
+  margin-left: 30px;
+  font-family: "Roboto Flex", sans-serif;
+  color: #B3B3B2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+main .container .main-content .main-element2 .element .box {
+  margin-top: 40px;
+}
+main .container .main-content .main-element2 .element .box img {
+  margin-left: 30px;
+  margin-top: -10px;
+}
+main .container .main-content .main-element2 .element .box p {
+  margin-top: -40px;
+  margin-left: 90px;
+}/*# sourceMappingURL=style.css.map */
